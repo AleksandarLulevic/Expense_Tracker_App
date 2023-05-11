@@ -1,0 +1,32 @@
+.chart-bar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-bar__inner {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #34363B;
+  outline: none;
+  background: linear-gradient(to bottom, #a3a8ad, #949daf);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chart-bar__fill {
+  background: linear-gradient(to bottom, #16528d, #6e94e0);
+  width: 100%;
+  transition: all 0.3s ease-out;
+}
+
+.chart-bar__label {
+  font-weight: bold;
+  font-size: 0.5rem;
+  text-align: center;
+  color: white;
+}
